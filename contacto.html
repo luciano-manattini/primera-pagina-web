@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+ <html>
+
+
+
+ <head>
+                             <meta charset="utf-8">
+ 	                  <title>contactos</title>
+ 	                  <link rel="stylesheet" type="text/css" href="reset.css">
+                     <link rel="stylesheet" type="text/css" href="style.css">
+
+ </head>
+ <body>
+ <header>
+		         	<div class="caja">
+		         		 <h1><img src="imagenes/logo.png" alt="logo de la barberia"></h1>
+		                  <nav>  
+		                            <ul>
+							       	    <li><a href="index.html">home</a></li>
+							       	    <li><a href ="productos.html">productos</a></li>
+							       	    <li><a href ="contacto.html">contactos</a></li>
+							 	
+
+						           </ul>
+						  </nav>
+
+						   
+
+		 	       </div>
+
+		        </header> 
+
+		        <main>
+		        
+                            <form> 
+                                    <label for="nombreapellido">Nombre y Apellido</label>
+                                     <input type="text" id="nombreapellido" class="input-principal" required>
+                                         
+                                      <label for="correelectronico">Correo Electrónico</label>
+                                     <input type="email" id="correelectronico" class="input-principal" required placeholder="email@gmail.com">
+
+                                     <label for="numero">teléfono</label>
+                                     <input type="tel" id="numero" class="input-principal" required placeholder="(xxx)xxxxxx">
+                                     <label for="mensaje">mensaje</label>
+                                <textarea cols="68" rows="10" id="mensaje" class="input-principal" required> </textarea> 
+                                 <fieldset> 
+                                    	<legend>¿cómo le gustaria que lo contactemos?</legend>
+
+                                     <label for="email-radio"><input type="radio" name="contacto" value="email" id="email-radio">email</label>
+                                   
+
+                                     <label for="email-telefono"> <input type="radio" name="contacto" value="telefono" id="email-telefono">teléfono</label>
+
+                                   
+                                     <label for="email-whattsapp">                                    <input type="radio" name="contacto" value="whattsapp" id="email-whattsapp" checked>whattsapp</label>
+
+                                </fieldset>
+                                    <fieldset> 
+
+                                    	<legend>¿En que horario prefiere ser atendido?</legend>
+                                	<select>
+                                  	
+                                  	   <option>mañana</option>
+                                  	   <option>tarde</option>
+                                  	   <option>noche</option>
+                                  </select>
+
+
+                                 </fieldset>
+                                
+                                  
+                                    <label class="checkbox"><input type="checkbox" checked>¿le gustaria recibir novedades de la barberia alura?</label>
+                                     <input type="submit" class="enviar">
+                            </form>
+
+                            <table> 
+                                           <thead>
+				                            <tr>
+				                            	 <th>Días</th>
+				                            	 <th>Horarios</th>
+				                            </tr>  
+                                           </thead>
+
+                                            <tbody>
+                                            	<tr>
+				                            	 <td>Lunes</td>
+				                            	 <td>8hs - 20hs</td>
+				                            </tr> 
+
+				                             <tr>
+				                            	 <td>Miércoles</td>
+				                            	 <td>8hs - 20hs</td>
+				                            </tr>
+				                             <tr>
+				                            	 <td><VAR></VAR>Viernes</td>
+				                            	 <td>8hs - 20hs</td>
+				                            </tr>                                             	
+                                            </tbody>
+                                             
+
+
+                             </table>
+
+		        </main>
+
+
+
+
+
+
+
+
+                     <footer>
+                                  <img src="imagenes/logo-blanco.png" alt="logo de la barberia">
+                                  <p class="copyrigth">&copycopyrigth barberia alura - 2020</p>
+                     </footer>
